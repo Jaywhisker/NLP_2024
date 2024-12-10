@@ -1,0 +1,9 @@
+torch
+pandas
+numpy
+scikit-learn
+seaborn
+transformers==3.0.2
+tqdm
+matplotlib
+d2l
