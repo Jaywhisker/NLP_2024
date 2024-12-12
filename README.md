@@ -1,10 +1,10 @@
 # NLP Final Project 2024
-This is the readme folder for 50.040 Natural Language Processing Final Project. <br>
+This is the readme folder for team introverts for 50.040 Natural Language Processing Final Project. <br>
 The memebers in this team are: Cheng Wei Xuan (1006040), Onn Hui Ning (1006132), Koh Jin Rui Vinny (1006036)
 
 In this folder, you can retrieve the following:
-1. Solution for final_project.ipynb as `final_project_notebook.pdf`
-2. Final Design Challenge report as `final_report.pdf`
+1. Solution for final_project.ipynb as `finalproject_introverts.pdf`
+2. Final Design Challenge report as `finalreport_introverts.pdf`
 3. Source code (.py files) in `src/`
 4. Output files (RNN.csv, CNN.csv, Roberta.csv) in `results/`
 5. Design Challenge model (Best_Roberta.pt) in `models/`
@@ -47,6 +47,7 @@ The following arguments are provided for your training, with the default values 
 ```
 To finetune Roberta with default parameters, run the following in your terminal (Ensure you are in the ROOT of this folder):
 ```
+cd finalproject_introverts (just to ensure you are in ROOT)
 python -m src.train 
 ```
 
@@ -65,13 +66,16 @@ The following arguments are provided for your training, with the default values 
 ```
 To evaluate your Roberta model with default parameters, run the following in your terminal (Ensure you are in the ROOT of this folder):
 ```
+cd finalproject_introverts (just to ensure you are in ROOT)
 python -m src.eval 
 ```
 
 # Folder Structure
-Other than the python files, we left our other exploration notebooks in the notebook folder. Explorations detailed in the appendix of the final_report can be found there.
+Other than the python files, we left our other exploration notebooks in the notebook folder. Explorations detailed in the appendix of the final report can be found there.
 
 ```
+finalproject_introverts
+|
 ├── data                           <- base folder containing all the dataset
 │   ├── aclImdb                    <- folder containing aclImdb train and test data 
 │   │
@@ -104,9 +108,9 @@ Other than the python files, we left our other exploration notebooks in the note
 │   │
 │   └── main.py                    <- main python file that consist of all the endpoints for the fastAPI
 |
-├── final_project_notebook.pdf     <- final_project.ipynb in pdf format (notebook is in notebooks/)
+├── finalproject_introverts.pdf    <- final_project.ipynb in pdf format (notebook is in notebooks/)
 |
-├── final_report.pdf               <- final report
+├── finalreport_introverts.pdf     <- final report
 |                            
 └── requirements.txt               <- text file containing required python packages
 
