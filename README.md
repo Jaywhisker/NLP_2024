@@ -105,8 +105,6 @@ finalproject_introverts
 │   ├── train.py                   <- python file to finetune roberta
 │   │
 │   └── eval.py                    <- python file to evaluate roberta
-│   │
-│   └── main.py                    <- main python file that consist of all the endpoints for the fastAPI
 |
 ├── finalproject_introverts.pdf    <- final_project.ipynb in pdf format (notebook is in notebooks/)
 |
