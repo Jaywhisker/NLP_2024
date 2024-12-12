@@ -1,0 +1,10 @@
+matplotlib==3.7.2
+numpy==1.23.5
+pandas==2.0.3
+scikit_learn==1.6.0
+torch==2.2.2+cu121
+tqdm==4.67.0
+transformers==4.46.3
+torch==2.2.2+cu121
+d2l==1.0.3
+sentencepiece==0.2.0
